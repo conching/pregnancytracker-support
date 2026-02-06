@@ -174,7 +174,7 @@ Baby development facts are sourced from established medical organizations includ
 <div class="contact-card">
   <h3>Still need help?</h3>
   <p>We typically respond within 48 hours. Please include your device model and iOS version.</p>
-  <a href="mailto:pregtracker.app@gmail.com" class="email-link">Email Support</a>
+  <a href="mailto:conching@me.com" class="email-link">Email Support</a>
 </div>
 
 ---
