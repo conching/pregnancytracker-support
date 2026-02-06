@@ -92,7 +92,7 @@ We may update this policy periodically. Changes will be reflected in the "Last U
 <div class="contact-card">
   <h3>Questions?</h3>
   <p>If you have any questions about this Privacy Policy, please contact us.</p>
-  <a href="mailto:pregnancytracker.app@gmail.com" class="email-link">pregnancytracker.app@gmail.com</a>
+  <a href="mailto:pregtracker.app@gmail.com" class="email-link">pregtracker.app@gmail.com</a>
 </div>
 
 ---

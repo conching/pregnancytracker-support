@@ -44,7 +44,7 @@ Pregnancy Tracker helps expecting parents stay informed and organized throughout
 <div class="contact-card">
   <h3>Need Help?</h3>
   <p>Visit our Support page for FAQs and troubleshooting, or reach out directly.</p>
-  <a href="mailto:pregnancytracker.app@gmail.com" class="email-link">Contact Us</a>
+  <a href="mailto:pregtracker.app@gmail.com" class="email-link">Contact Us</a>
 </div>
 
 ## Quick Links
