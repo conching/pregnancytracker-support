@@ -1,0 +1,7 @@
+title: Pregnancy Tracker
+description: Support pages for the Pregnancy Tracker iOS app
+url: "https://conching.github.io"
+baseurl: "/pregnancytracker-support"
+markdown: kramdown
+kramdown:
+  parse_block_html: true

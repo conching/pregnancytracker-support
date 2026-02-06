@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #FDFBF6;
+      --bg-secondary: #F5F0E8;
+      --bg-card: #FFFFFF;
+      --terracotta: #E07A5F;
+      --terracotta-light: #E99A84;
+      --terracotta-dark: #C4643E;
+      --sage: #88B086;
+      --sage-light: #A8C8A6;
+      --slate: #4D6688;
+      --text-primary: #2C2C2C;
+      --text-secondary: rgba(44, 44, 44, 0.65);
+      --text-muted: rgba(44, 44, 44, 0.4);
+      --border: rgba(44, 44, 44, 0.1);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      min-height: 100vh;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* Subtle dot pattern */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-image: radial-gradient(circle, rgba(224,122,95,0.06) 1px, transparent 1px);
+      background-size: 32px 32px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .logo {
+      width: 72px;
+      height: 72px;
+      margin: 0 auto 16px;
+      background: linear-gradient(135deg, var(--terracotta), var(--terracotta-light));
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 24px rgba(224,122,95,0.25);
+    }
+
+    .logo svg {
+      width: 40px;
+      height: 40px;
+      fill: white;
+    }
+
+    .site-title {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 2rem;
+      font-weight: 500;
+      color: var(--terracotta);
+      margin-bottom: 4px;
+      letter-spacing: 0.02em;
+    }
+
+    .site-subtitle {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      font-weight: 300;
+      letter-spacing: 0.05em;
+    }
+
+    /* Navigation */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-top: 24px;
+    }
+
+    nav a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 500;
+      padding: 8px 16px;
+      border-radius: 20px;
+      transition: all 0.2s ease;
+    }
+
+    nav a:hover {
+      color: var(--terracotta);
+      background: rgba(224,122,95,0.08);
+    }
+
+    nav a.active {
+      color: var(--terracotta);
+      background: rgba(224,122,95,0.12);
+    }
+
+    /* Main content */
+    main {
+      animation: fadeIn 0.5s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 2.25rem;
+      font-weight: 500;
+      color: var(--terracotta);
+      margin-bottom: 8px;
+      letter-spacing: 0.01em;
+    }
+
+    .page-subtitle {
+      color: var(--text-muted);
+      font-size: 0.875rem;
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: var(--text-primary);
+      margin: 48px 0 20px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--slate);
+      margin: 32px 0 12px;
+    }
+
+    p {
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+      font-weight: 300;
+    }
+
+    strong {
+      color: var(--text-primary);
+      font-weight: 500;
+    }
+
+    /* Cards */
+    .card {
+      background: var(--bg-card);
+      border-radius: 16px;
+      padding: 24px;
+      margin: 24px 0;
+      border: 1px solid var(--border);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    }
+
+    .card p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Lists */
+    ul, ol {
+      color: var(--text-secondary);
+      margin: 16px 0;
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      font-weight: 300;
+    }
+
+    li strong {
+      color: var(--text-primary);
+    }
+
+    /* Tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 24px 0;
+      font-size: 0.9rem;
+    }
+
+    th {
+      text-align: left;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      color: var(--terracotta);
+      font-weight: 500;
+      border-bottom: 1px solid var(--border);
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text-secondary);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* Links */
+    a {
+      color: var(--terracotta);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    a:hover {
+      color: var(--terracotta-dark);
+    }
+
+    /* Horizontal rule */
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 40px 0;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 64px;
+      padding-top: 32px;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 0.8rem;
+    }
+
+    footer p {
+      margin-bottom: 8px;
+    }
+
+    /* Contact card */
+    .contact-card {
+      background: linear-gradient(135deg, var(--bg-card) 0%, rgba(224,122,95,0.06) 100%);
+      border: 1px solid rgba(224,122,95,0.15);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin: 32px 0;
+    }
+
+    .contact-card h3 {
+      margin-top: 0;
+      color: var(--terracotta);
+    }
+
+    .email-link {
+      display: inline-block;
+      background: var(--terracotta);
+      color: #FFFFFF !important;
+      padding: 12px 28px;
+      border-radius: 24px;
+      font-weight: 500;
+      margin-top: 16px;
+      transition: all 0.2s ease;
+    }
+
+    .email-link:hover {
+      background: var(--terracotta-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(224,122,95,0.3);
+    }
+
+    /* Feature list */
+    .feature-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin: 24px 0;
+    }
+
+    .feature-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .feature-icon {
+      font-size: 2rem;
+      margin-bottom: 8px;
+    }
+
+    .feature-item h4 {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 4px;
+    }
+
+    .feature-item p {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-bottom: 0;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .container {
+        padding: 24px 16px 60px;
+      }
+
+      h1 { font-size: 1.75rem; }
+      h2 { font-size: 1.25rem; }
+
+      nav {
+        gap: 12px;
+      }
+
+      nav a {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+      }
+
+      .feature-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm-1-14h2v6h-2zm0 8h2v2h-2z" fill="white" opacity="0"/><path d="M19 4h-1V3a1 1 0 0 0-2 0v1H8V3a1 1 0 0 0-2 0v1H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 16H5V9h14v11zM9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm-8 4H7v2h2v-2zm4 0h-2v2h2v-2z"/></svg>
+      </div>
+      <div class="site-title">Pregnancy Tracker</div>
+      <div class="site-subtitle">Your partner in pregnancy, week by week</div>
+      <nav>
+        <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+        <a href="{{ '/support' | relative_url }}" {% if page.url == '/support' or page.url == '/support.html' %}class="active"{% endif %}>Support</a>
+        <a href="{{ '/privacy' | relative_url }}" {% if page.url == '/privacy' or page.url == '/privacy.html' %}class="active"{% endif %}>Privacy</a>
+      </nav>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <p>Pregnancy Tracker &middot; Version 1.0</p>
+      <p>&copy; 2026 Chase Conching</p>
+    </footer>
+  </div>
+</body>
+</html>
