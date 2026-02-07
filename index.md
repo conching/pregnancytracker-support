@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Pregnancy Tracker
+title: BumpTrackr
 ---
 
 <h1>Welcome</h1>
 <p class="page-subtitle">Your partner in pregnancy, week by week</p>
 
-Pregnancy Tracker helps expecting parents stay informed and organized throughout every stage of pregnancy — from that first positive test through delivery day and beyond.
+BumpTrackr helps expecting parents stay informed and organized throughout every stage of pregnancy — from that first positive test through delivery day and beyond.
 
 <div class="feature-grid">
   <div class="feature-item">

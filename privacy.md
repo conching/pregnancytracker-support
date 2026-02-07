@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Privacy Policy - Pregnancy Tracker
+title: Privacy Policy - BumpTrackr
 ---
 
 <h1>Privacy Policy</h1>
 <p class="page-subtitle">Last Updated: February 6, 2026</p>
 
-Pregnancy Tracker is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your information.
+BumpTrackr is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your information.
 
 ## The Short Version
 
@@ -18,7 +18,7 @@ Pregnancy Tracker is committed to protecting your privacy. This policy explains 
 
 ### We Collect Nothing
 
-Pregnancy Tracker does **not** collect, transmit, or store any personal information on external servers. The app operates entirely on your device.
+BumpTrackr does **not** collect, transmit, or store any personal information on external servers. The app operates entirely on your device.
 
 - No accounts or sign-ups required
 - No analytics or tracking SDKs
@@ -97,4 +97,4 @@ We may update this policy periodically. Changes will be reflected in the "Last U
 
 ---
 
-By using Pregnancy Tracker, you consent to this Privacy Policy.
+By using BumpTrackr, you consent to this Privacy Policy.

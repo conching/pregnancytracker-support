@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Support - Pregnancy Tracker
+title: Support - BumpTrackr
 ---
 
 <h1>Support</h1>
@@ -26,7 +26,7 @@ You can change any of these later in **Settings**.
 
 **I just found out I'm pregnant — will the app work for me?**
 
-Yes! Pregnancy Tracker is designed for every stage, from the earliest weeks through delivery. The app adapts its content, checklists, and tips based on how far along you are.
+Yes! BumpTrackr is designed for every stage, from the earliest weeks through delivery. The app adapts its content, checklists, and tips based on how far along you are.
 
 </div>
 
@@ -137,7 +137,7 @@ The app includes medical facts for weeks 4–42. If you're in weeks 1–3, a bri
 **Calendar sync isn't working**
 
 1. Go to **iOS Settings → Privacy & Security → Calendars**
-2. Make sure Pregnancy Tracker has permission
+2. Make sure BumpTrackr has permission
 3. Try toggling the permission off and back on
 4. Re-add the appointment from within the app
 
@@ -159,7 +159,7 @@ The app includes medical facts for weeks 4–42. If you're in weeks 1–3, a bri
 
 **What iOS version is required?**
 
-Pregnancy Tracker requires iOS 17.0 or later.
+BumpTrackr requires iOS 17.0 or later.
 
 </div>
 
@@ -180,6 +180,6 @@ Baby development facts are sourced from established medical organizations includ
 ---
 
 <p style="text-align: center; color: var(--text-muted);">
-  <strong>Thank you for using Pregnancy Tracker!</strong><br>
+  <strong>Thank you for using BumpTrackr!</strong><br>
   Built with love for growing families.
 </p>
