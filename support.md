@@ -17,6 +17,7 @@ When you first open the app, you'll be guided through a quick onboarding flow:
 1. Enter your name (or how you'd like to be greeted)
 2. Set your due date
 3. Optionally add your baby's name and gender
+4. Choose your notification preference (Minimal, Balanced, or Everything)
 
 You can change any of these later in **Settings**.
 
@@ -26,7 +27,7 @@ You can change any of these later in **Settings**.
 
 **I just found out I'm pregnant — will the app work for me?**
 
-Yes! BumpTrackr is designed for every stage, from the earliest weeks through delivery. The app adapts its content, checklists, and tips based on how far along you are.
+Yes! BumpTrackr is designed for every stage, from the earliest weeks through delivery and beyond into baby's first days. The app adapts its content, checklists, and tips based on where you are.
 
 </div>
 
@@ -52,7 +53,7 @@ The home screen shows a tip card tailored to your current week. These cover impo
 
 **How does the checklist work?**
 
-The checklist provides recommended to-dos organized by category (First Trimester, Second Trimester, Hospital Bag, Nursery, etc.). Items are sorted by relevance to your current stage. You can also add your own custom items.
+The checklist provides recommended to-dos organized by category. During pregnancy, items are grouped by trimester (First Trimester, Second Trimester, Hospital Bag, Nursery, etc.). After delivery, the checklist transforms into newborn care categories — Feeding, Sleep & Routine, Health & Safety, Admin & Insurance, and Self-Care. You can also add your own custom items at any stage. Pregnancy items are preserved when you transition to postpartum mode.
 
 </div>
 
@@ -77,6 +78,60 @@ From the Symptoms tab, tap the "Contraction" button to open the full-screen time
 **Can I share my birth plan?**
 
 Yes! Once you've filled out your birth plan, tap the share button to export it as a formatted document you can send to your partner, doula, or care provider.
+
+</div>
+
+## Labor Mode & Delivery
+
+<div class="card" markdown="1">
+
+**What is Labor Mode?**
+
+Starting at week 37, a "Enter Labor Mode" button appears on the home screen. This opens a full-screen view with:
+
+- A **contraction timer** for timing contractions during labor
+- A **birth plan summary** (read-only) so your preferences are at hand
+- Your **critical contacts** with quick-dial buttons
+
+Labor Mode is designed to be used during active labor when you need quick access to essential information.
+
+</div>
+
+<div class="card" markdown="1">
+
+**How do I record the delivery?**
+
+When baby arrives, tap "Baby Has Arrived!" on the home screen (available from week 37+). You'll walk through a quick flow to record:
+
+1. Birth date and time
+2. Baby's weight and length
+3. Baby's name confirmation
+
+After recording, the entire app transforms into **postpartum mode** with baby care tools, recovery tracking, and newborn-focused checklists.
+
+</div>
+
+<div class="card" markdown="1">
+
+**Can I go back to pregnancy mode?**
+
+Yes — if you entered delivery details by mistake, go to **Settings** and tap "Return to Pregnancy Mode" at the bottom to undo the transition.
+
+</div>
+
+## Smart Notifications
+
+<div class="card" markdown="1">
+
+**How do notifications work?**
+
+BumpTrackr sends local notifications (generated entirely on your device) for weekly tips, appointment reminders, and milestone alerts. You can choose from three levels:
+
+- **Minimal** — Only essential reminders (appointments, critical milestones)
+- **Balanced** — Weekly tips plus important reminders
+- **Everything** — All available notifications including engagement prompts
+
+Change your preference anytime in **Settings → Notification Frequency**.
 
 </div>
 

@@ -4,9 +4,9 @@ title: BumpTrackr
 ---
 
 <h1>Welcome</h1>
-<p class="page-subtitle">Your partner in pregnancy, week by week</p>
+<p class="page-subtitle">Your partner from pregnancy through baby's first days</p>
 
-BumpTrackr helps expecting parents stay informed and organized throughout every stage of pregnancy — from that first positive test through delivery day and beyond.
+BumpTrackr helps expecting parents stay informed and organized throughout every stage of pregnancy — from that first positive test through delivery day and into the newborn chapter.
 
 <div class="feature-grid">
   <div class="feature-item">
@@ -17,7 +17,7 @@ BumpTrackr helps expecting parents stay informed and organized throughout every 
   <div class="feature-item">
     <div class="feature-icon">✅</div>
     <h4>Smart Checklist</h4>
-    <p>Trimester-adapted to-dos that evolve with your pregnancy</p>
+    <p>Trimester-adapted to-dos that transform into newborn care after delivery</p>
   </div>
   <div class="feature-item">
     <div class="feature-icon">❤️</div>
@@ -25,19 +25,19 @@ BumpTrackr helps expecting parents stay informed and organized throughout every 
     <p>Log symptoms, track kicks, and time contractions</p>
   </div>
   <div class="feature-item">
-    <div class="feature-icon">📋</div>
-    <h4>Birth Plan</h4>
-    <p>Build and share your birth preferences with your care team</p>
-  </div>
-  <div class="feature-item">
     <div class="feature-icon">🏥</div>
-    <h4>Critical Info</h4>
-    <p>Emergency contacts and hospital details at your fingertips</p>
+    <h4>Labor Mode</h4>
+    <p>Full-screen contraction timer, birth plan, and contacts when it's go time</p>
   </div>
   <div class="feature-item">
-    <div class="feature-icon">📆</div>
-    <h4>Appointments</h4>
-    <p>Track prenatal visits with calendar sync</p>
+    <div class="feature-icon">👶</div>
+    <h4>Postpartum Mode</h4>
+    <p>The app transforms after delivery — baby age, recovery tracking, and care checklists</p>
+  </div>
+  <div class="feature-item">
+    <div class="feature-icon">🔔</div>
+    <h4>Smart Notifications</h4>
+    <p>Choose your pace — Minimal, Balanced, or Everything</p>
   </div>
 </div>
 

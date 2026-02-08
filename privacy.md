@@ -4,7 +4,7 @@ title: Privacy Policy - BumpTrackr
 ---
 
 <h1>Privacy Policy</h1>
-<p class="page-subtitle">Last Updated: February 6, 2026</p>
+<p class="page-subtitle">Last Updated: February 7, 2026</p>
 
 BumpTrackr is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your information.
 
@@ -36,16 +36,33 @@ BumpTrackr does **not** collect, transmit, or store any personal information on 
 The following information is stored **locally on your device** using Apple's SwiftData framework and UserDefaults:
 
 - **Pregnancy details:** Due date, baby name, baby gender
+- **Delivery details:** Birth date, baby weight, baby length (after delivery)
 - **Your name:** Used for personalized greetings within the app
 - **Checklist items:** Your to-do items and completion status
-- **Appointments:** Prenatal visit dates and details
-- **Symptom logs:** Symptoms, kick counts, and contraction timing
+- **Appointments:** Prenatal and pediatrician visit dates and details
+- **Symptom logs:** Symptoms, kick counts, contraction timing, and postpartum recovery logs
 - **Birth plan:** Your birth preferences and care team details
 - **Critical info:** Emergency contacts and hospital information
 - **Notes and milestones:** Personal journal entries and photos
-- **App preferences:** Theme, notification settings
+- **App preferences:** Theme, notification preference level, delivery status
 
 This data is **never transmitted** off your device. If you delete the app, this data is permanently removed.
+
+</div>
+
+## Notifications
+
+<div class="card" markdown="1">
+
+### Optional Push Notifications
+
+BumpTrackr can send local notifications for weekly pregnancy tips, appointment reminders, and milestone alerts. These notifications are:
+
+- **Generated entirely on your device** — no push notification servers are involved
+- **Controlled by you** — choose from three levels (Minimal, Balanced, Everything) or disable entirely
+- Customizable at any time in Settings
+
+No notification data is transmitted off your device.
 
 </div>
 
