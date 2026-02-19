@@ -14,10 +14,11 @@ title: Support - BumpTrackr
 
 When you first open the app, you'll be guided through a quick onboarding flow:
 
-1. Enter your name (or how you'd like to be greeted)
-2. Set your due date
-3. Optionally add your baby's name and gender
-4. Choose your notification preference (Minimal, Balanced, or Everything)
+1. Choose your role — **Primary User** (starting a new tracker) or **Join Partner** (connecting to an existing tracker via invite link)
+2. Enter your name (or how you'd like to be greeted)
+3. Set your due date (primary user) or paste the invite link (partner)
+4. Optionally add your baby's name and gender
+5. Choose your notification preference (Minimal, Balanced, or Everything)
 
 You can change any of these later in **Settings**.
 
@@ -81,6 +82,66 @@ Yes! Once you've filled out your birth plan, tap the share button to export it a
 
 </div>
 
+## Partner Sync
+
+<div class="card" markdown="1">
+
+**How do I share with my partner?**
+
+1. Go to **Settings → Partner Sync**
+2. Tap **Invite Partner** — this creates a share link
+3. Send the link to your partner via Messages, AirDrop, or any method
+4. Your partner opens BumpTrackr and taps **Join Partner** during onboarding (or goes to **Settings → Partner Sync → Join via Link**)
+5. Both devices now sync pregnancy data in real time via iCloud
+
+</div>
+
+<div class="card" markdown="1">
+
+**What data syncs between partners?**
+
+Checklist items, appointments, symptom logs, milestones, baby shower details, birth plan, and critical contacts all sync between paired devices. Each entry is labeled with who logged it (your display name). Photos, journal notes, and app preferences (theme, notifications) are per-device and do not sync.
+
+</div>
+
+<div class="card" markdown="1">
+
+**How do I remove a partner or stop sharing?**
+
+- **Owner** (person who created the share): Go to Settings → Partner Sync → Stop Sharing, or remove individual participants
+- **Partner** (person who accepted the invite): Go to Settings → Partner Sync → Leave Shared Tracker
+
+Leaving immediately revokes access. No data is deleted from either device — each person keeps their local copy.
+
+</div>
+
+<div class="card" markdown="1">
+
+**Sync seems delayed — what should I do?**
+
+CloudKit sync depends on network conditions and iCloud availability. Try:
+
+1. Make sure both devices are connected to the internet
+2. Open the app on both devices (sync triggers on launch and when returning to the app)
+3. Pull to refresh on the Home, Checklist, or Appointments tab
+4. Go to Settings → Partner Sync and tap **Force Refresh All Data**
+5. Check that iCloud is enabled: Settings → Apple Account → iCloud → Apps Using iCloud
+
+Sync typically completes within a few seconds but may take up to a minute on slower connections.
+
+</div>
+
+<div class="card" markdown="1">
+
+**My partner can't open the share link**
+
+- Make sure BumpTrackr is installed on your partner's device
+- Both devices must be signed in to iCloud with different Apple IDs
+- Check that iCloud Drive is enabled on both devices
+- Try generating a new invite link if the original has expired
+
+</div>
+
 ## Labor Mode & Delivery
 
 <div class="card" markdown="1">
@@ -141,7 +202,7 @@ Change your preference anytime in **Settings → Notification Frequency**.
 
 **Where is my data stored?**
 
-All data is stored **locally on your device**. Nothing is sent to external servers. See our [Privacy Policy](privacy) for full details.
+All data is stored **locally on your device** and synced via your personal **iCloud account**. We don't operate any servers. See our [Privacy Policy](privacy) for full details.
 
 </div>
 
@@ -157,7 +218,7 @@ Go to **Settings → Backup & Restore**. Tap "Export to JSON" to create a backup
 
 **Can I transfer data to a new phone?**
 
-Yes — export a backup on your old device, then import it on your new device using the same **Backup & Restore** screen.
+Yes — since data syncs via iCloud, simply sign in to the same Apple ID on your new device and install BumpTrackr. Your data will sync automatically. You can also export a manual backup on your old device and import it on your new device using the **Backup & Restore** screen.
 
 </div>
 
@@ -165,7 +226,7 @@ Yes — export a backup on your old device, then import it on your new device us
 
 **What happens if I delete the app?**
 
-All data stored within the app will be permanently deleted. We recommend creating a backup first if you plan to reinstall later.
+Locally stored data is permanently removed. iCloud data can be managed separately via Settings → Apple Account → iCloud → Manage Storage. If sharing was active, your partner keeps their local copy of the data.
 
 </div>
 
